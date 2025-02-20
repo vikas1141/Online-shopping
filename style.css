@@ -1,0 +1,265 @@
+body {
+    background-image: url('img/shopping img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+
+.home-icon img{
+    width:35px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.searchbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+   
+.searchbar button {
+    width: 38px;
+    height: 33px;
+    border-radius: 1000px;
+    
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.searchbar button img {
+    
+    width: 19px;
+    height: 19px;           
+    position: relative;
+}
+
+.cart {
+    padding-left: 0px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    
+}
+.cart img {
+    
+    width: 25px;
+    height: 26px;           
+    position: relative;
+    border-radius: 2px;
+    
+
+}
+.cart:hover {
+    transform: scale(1.2);
+}
+.sign {
+    
+    margin-bottom: 40px;
+    transition: 0.5s;
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.sign img {
+   
+    width: 70px;
+    height: 25px;
+    border-radius: 2px;
+    
+
+}
+.sign:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+input[type="search"] {
+    
+    padding: 8px 10px;
+    width: 80%;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 50px;
+    outline: none;
+    
+    
+}
+
+
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-md-2{
+    margin-right: 0% !important;
+    padding: 0% !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    
+    
+}
+
+.category-block {
+    
+    background-color: #f3e075;
+    font-family: sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    margin: 0%;
+    align-items: center;
+}
+
+.category-block a {
+    color: white;
+    background-color: rgb(52, 95, 196);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 0px;
+    transition: 0.1s;
+}
+
+.category-block h1 {
+    font-size: larger;
+}
+
+.category-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category-block a:hover {
+    background-color: #5abbe8;
+}
+
+.offers {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px;
+    color: #000000;
+    
+}
+
+.suboffers button {
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+   
+
+}
+.suboffers button:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #302d2d;
+    color: white;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-links a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #151414;
+    font-size: 14px;
+}
+
+@media(max-width: 991px ) and (min-width:768px)  {
+   
+    .col-md-7{
+        padding-left: 0%;
+        width: 60%;
+    }
+    
+}
+
+@media(max-width: 768px ) and (min-width:600px)  {
+   
+    .col-md-7{
+        padding-left: 0%;
+        width:60%;
+    }
+    .home-icon{
+        margin-left: -50px;
+    }
+    
+}

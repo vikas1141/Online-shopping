@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Signup page</title>
+    <style>
+        body {
+            background-image: url(img/loginbg.png);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .user {
+            background-color: rgb(167, 131, 131);
+            padding: 50px 30px;
+            border-radius: 10px;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        input{
+            padding: 5px 0;
+            margin: 5px;
+            border-radius: 2px;
+            border-width: 0px;
+            width: 250px;
+
+        }
+        #loginbt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 90px;
+            margin-top: 20px;
+            width: 70px;
+        }
+        .home-icon img{
+            width:35px;
+            margin-left: 100px;
+            margin-top: 30px;
+    
+        }
+
+
+    </style> 
+</head>
+<body>
+    <header>
+        <a class="home-icon" href="homepage.html">
+             <img src="img/home-icon.png" alt="home icon">
+        </a>
+    </header>
+    <div class="container">
+        <div class="user">
+            <h1>
+                SIGNUP
+            </h1>
+            <form action="/login" method="post">
+                <input type="text" id="username" name="username" placeholder="username" required><br>
+                <input type="password" id="password" name="password" placeholder="password" required><br>
+                <input type="password" id="password" name="confirm password" placeholder="confirm password" required><br>
+                <input type="submit" id="loginbt" value="Signup"><br>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
